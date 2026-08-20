@@ -278,7 +278,7 @@ const Home = () => {
                 selfDescription,
                 resumeFile
             })
-
+                
             console.log("Generated report:", data)
 
             navigate(`/interview/${data._id}`)
